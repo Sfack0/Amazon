@@ -115,6 +115,7 @@ if(items.length > 0){
     orders.push(items);
 }
 items = [];
+localStorage.removeItem('items');
 
 
 console.log(orders);
